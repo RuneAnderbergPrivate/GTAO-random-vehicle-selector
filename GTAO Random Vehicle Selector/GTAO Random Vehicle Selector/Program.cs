@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CarSelector
+namespace GTAO_Random_Vehicle_Selector
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace CarSelector
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMain());
+            Application.Run(new frm_main());
         }
     }
 }

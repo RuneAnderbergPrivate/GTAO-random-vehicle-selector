@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CarSelector")]
+[assembly: AssemblyTitle("GTAO Random Vehicle Selector")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CarSelector")]
+[assembly: AssemblyProduct("GTAO Random Vehicle Selector")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b66d2bdf-4b83-4424-8b43-0a684b16f10c")]
+[assembly: Guid("3a408ac2-4dc8-4372-8ff6-11b6ffa40e2c")]
 
 // Version information for an assembly consists of the following four values:
 //
