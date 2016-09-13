@@ -16,7 +16,7 @@ namespace GTAO_Random_Vehicle_Selector
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_main());
+            Application.Run(new FrmMain());
         }
     }
 }

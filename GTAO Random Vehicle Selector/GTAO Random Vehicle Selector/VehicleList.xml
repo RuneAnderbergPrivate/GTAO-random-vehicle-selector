@@ -1,1 +1,243 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vehicles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <garage name="Eclipse, Penthouse Suite 3">
+    <vehicle>
+      <make>Karin</make>
+      <model>Sultan RS</model>
+      <class>Super</class>
+    </vehicle>
+    <vehicle>
+      <make>Pfister</make>
+      <model>811</model>
+      <class>Super</class>
+    </vehicle>
+    <vehicle>
+      <make>Pegassi</make>
+      <model>Zentorno</model>
+      <class>Super</class>
+    </vehicle>
+    <vehicle>
+      <make>Grotti</make>
+      <model>X80 Proto</model>
+      <class>Super</class>
+    </vehicle>
+    <vehicle>
+      <make>Annis</make>
+      <model>RE-7B</model>
+      <class>Super</class>
+    </vehicle>
+    <vehicle>
+      <make>Dewbauchee</make>
+      <model>Seven-70</model>
+      <class>Sports</class>
+    </vehicle>
+    <vehicle>
+      <make>Dewbauchee</make>
+      <model>Massacro (Racecar)</model>
+      <class>Sports</class>
+    </vehicle>
+    <vehicle>
+      <make>Dinka</make>
+      <model>Jester (Racecar)</model>
+      <class>Sports</class>
+    </vehicle>
+    <vehicle>
+      <make>Coil</make>
+      <model>Voltic</model>
+      <class>Super</class>
+    </vehicle>
+    <vehicle>
+      <make>Bravado</make>
+      <model>Banshee 900R</model>
+      <class>Super</class>
+    </vehicle>
+  </garage>
+  <garage name="3655 Wild Oats Dr">
+    <vehicle>
+      <make>Benefactor</make>
+      <model>Schafter V12 (Armored)</model>
+      <class>Sedans</class>
+    </vehicle>
+    <vehicle>
+      <make>Nagasaki</make>
+      <model>BF400</model>
+      <class>Motorcycles</class>
+    </vehicle>
+    <vehicle>
+      <make>Pegassi</make>
+      <model>Bati 801</model>
+      <class>Motorcycles</class>
+    </vehicle>
+    <vehicle>
+      <make>Übermacht</make>
+      <model>Zion</model>
+      <class>Coupes</class>
+    </vehicle>
+    <vehicle>
+      <make>Grotti</make>
+      <model>Brioso R/A</model>
+      <class>Compacts</class>
+    </vehicle>
+    <vehicle>
+      <make>Declasse</make>
+      <model>Gang Burrito</model>
+      <class>Vans</class>
+    </vehicle>
+    <vehicle>
+      <make>Vapid</make>
+      <model>Sadler</model>
+      <class>Utility</class>
+    </vehicle>
+    <vehicle>
+      <make>Vapid</make>
+      <model>Contender</model>
+      <class>SUVs</class>
+    </vehicle>
+    <vehicle>
+      <make>Benefactor</make>
+      <model>Stirling GT</model>
+      <class>Sports Classics</class>
+    </vehicle>
+    <vehicle>
+      <make>Annis</make>
+      <model>Elegy RH8</model>
+      <class>Sports</class>
+    </vehicle>
+  </garage>
+  <garage name="0120 Murrieta Heights">
+    <vehicle>
+      <make>Albany</make>
+      <model>Fränken Stange</model>
+      <class>Muscle</class>
+    </vehicle>
+    <vehicle>
+      <make>Vapid</make>
+      <model>Pißwasser Dominator</model>
+      <class>Muscle</class>
+    </vehicle>
+    <vehicle>
+      <make>Invetero</make>
+      <model>Coquette BlackFin</model>
+      <class>Muscle</class>
+    </vehicle>
+    <vehicle>
+      <make>Albany</make>
+      <model>Buccaneer Custom</model>
+      <class>Muscle</class>
+    </vehicle>
+    <vehicle>
+      <make>Vapid</make>
+      <model>Blade</model>
+      <class>Muscle</class>
+    </vehicle>
+    <vehicle>
+      <make>Declasse</make>
+      <model>Tampa</model>
+      <class>Muscle</class>
+    </vehicle>
+    <vehicle>
+      <make>Declasse</make>
+      <model>Sabre Turbo Custom</model>
+      <class>Muscle</class>
+    </vehicle>
+    <vehicle>
+      <make>Imponte</make>
+      <model>Phoenix</model>
+      <class>Muscle</class>
+    </vehicle>
+    <vehicle>
+      <make>Imponte</make>
+      <model>Nightshade</model>
+      <class>Muscle</class>
+    </vehicle>
+    <vehicle>
+      <make>Bravado</make>
+      <model>Gauntlet</model>
+      <class>Muscle</class>
+    </vehicle>
+  </garage>
+  <garage name="Unit 2 Popular St">
+    <vehicle>
+      <make>Vapid</make>
+      <model>Trophy Truck</model>
+      <class>Off-Road</class>
+    </vehicle>
+    <vehicle>
+      <make>Coil</make>
+      <model>Brawler</model>
+      <class>Off-Road</class>
+    </vehicle>
+    <vehicle>
+      <make>Shitzu</make>
+      <model>Hakuchou</model>
+      <class>Motorcycles</class>
+    </vehicle>
+    <vehicle>
+      <make>Dinka</make>
+      <model>Akuma</model>
+      <class>Motorcycles</class>
+    </vehicle>
+    <vehicle>
+      <make>Benefactor</make>
+      <model>Panto</model>
+      <class>Compacts</class>
+    </vehicle>
+    <vehicle>
+      <make>Bravado</make>
+      <model>Rumpo Custom</model>
+      <class>Vans</class>
+    </vehicle>
+    <vehicle>
+      <make>Declasse</make>
+      <model>Tornado Custom</model>
+      <class>Sports Classics</class>
+    </vehicle>
+    <vehicle>
+      <make>Vapid</make>
+      <model>Peyote</model>
+      <class>Sports Classics</class>
+    </vehicle>
+    <vehicle>
+      <make>Obey</make>
+      <model>Omnis</model>
+      <class>Sports</class>
+    </vehicle>
+    <vehicle>
+      <make>Karin</make>
+      <model>Futo</model>
+      <class>Sports</class>
+    </vehicle>
+  </garage>
+  <garage name="0604 Las Laguna Blvd, Apt 4">
+    <vehicle>
+      <make>Declasse</make>
+      <model>Tornado Mariachi</model>
+      <class>Sports Classics</class>
+    </vehicle>
+    <vehicle>
+      <make>Albany</make>
+      <model>Roosevelt Valor</model>
+      <class>Sports Classics</class>
+    </vehicle>
+    <vehicle>
+      <make>Karin</make>
+      <model>Kuruma (Armored)</model>
+      <class>Sports</class>
+    </vehicle>
+    <vehicle>
+      <make>Chariot</make>
+      <model>Romero Hearse</model>
+      <class>Sedans</class>
+    </vehicle>
+    <vehicle>
+      <make>HVY</make>
+      <model>Insurgent</model>
+      <class>Off-Road</class>
+    </vehicle>
+    <vehicle>
+      <make>Benefactor</make>
+      <model>Dubsta</model>
+      <class>SUVs</class>
+    </vehicle>
+  </garage>
+</vehicles>
