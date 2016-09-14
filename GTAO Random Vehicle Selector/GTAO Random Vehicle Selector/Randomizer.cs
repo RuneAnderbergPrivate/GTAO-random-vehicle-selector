@@ -19,9 +19,8 @@ namespace GTAO_Random_Vehicle_Selector
         {
             Random random = new Random();
 
-            // List of garages with nrs of them propotional with the amount of vehicles in them
+            // Makes a list of garages with nrs of them in the list proportional with the amount of vehicles in the garage
             List<Garage> garages = new List<Garage>();
-
             foreach (Garage t in _vehicles.Garages)
             {
                 for (int j = 0; j < t.Vehicles.Count; j++)
@@ -30,33 +29,9 @@ namespace GTAO_Random_Vehicle_Selector
                 }
             }
 
-            // Randomizes a garage, chance of a garage getting selected is based on the nr of vehicles in them, i.e a 10 car garage is more likely to get selected than a 6 car garage
+            // Selects a random garage and chooses a random vehicle from that garage. The chance of getting a specific car is the same regardless of the size of the garage the car is in
             Garage garage = garages[random.Next(garages.Count)];
-
             Vehicle vehicle = garage.Vehicles[random.Next(garage.Vehicles.Count)];
-
-            //Vehicle vehicle = _vehicles.Garages.Find(g => g.Equals(garageName)).Vehicles[random.Next(garageName.Vehicles.Count)];
-
-            //if (rndVehicle < 10)
-            //{
-            //    vehicle = _vehicles.Garages[0].Vehicles[random.Next(_vehicles.Garages[0].Vehicles.Count)];
-            //}
-            //else if (rndVehicle < 20)
-            //{
-            //    vehicle = _vehicles.Garages[1].Vehicles[random.Next(_vehicles.Garages[1].Vehicles.Count)];
-            //}
-            //else if (rndVehicle < 30)
-            //{
-            //    vehicle = _vehicles.Garages[2].Vehicles[random.Next(_vehicles.Garages[2].Vehicles.Count)];
-            //}
-            //else if (rndVehicle < 40)
-            //{
-            //    vehicle = _vehicles.Garages[3].Vehicles[random.Next(_vehicles.Garages[3].Vehicles.Count)];
-            //}
-            //else if (rndVehicle < 46)
-            //{
-            //    vehicle = _vehicles.Garages[4].Vehicles[random.Next(_vehicles.Garages[4].Vehicles.Count)];
-            //}
 
             return vehicle;
         }
