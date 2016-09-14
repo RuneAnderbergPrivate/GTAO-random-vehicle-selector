@@ -33,7 +33,6 @@ namespace GTAO_Random_Vehicle_Selector
         private void btn_NewRandomVehicle_Click(object sender, EventArgs e)
         {
             RndVehicle();
-            Vehicle = Randomizer.RandomVehicle();
             lbl_rndVehicle_SetText(GetVehicleText());
         }
 
