@@ -15,7 +15,7 @@ namespace GTAO_Random_Vehicle_Selector
 
         private Vehicles _vehicles;
         
-        public Vehicle RandomVehicle ()
+        public string RandomVehicle ()
         {
             Random random = new Random();
 
@@ -33,7 +33,8 @@ namespace GTAO_Random_Vehicle_Selector
             Garage garage = garages[random.Next(garages.Count)];
             Vehicle vehicle = garage.Vehicles[random.Next(garage.Vehicles.Count)];
 
-            return vehicle;
+            string output = garage.Name + ": " + vehicle.Make + " " + vehicle.Model + " (" + vehicle.Class + ")";
+            return output;
         }
     }
 }

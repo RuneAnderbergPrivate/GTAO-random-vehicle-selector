@@ -45,7 +45,7 @@
             // btn_NewRandomVehicle
             // 
             this.btn_NewRandomVehicle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btn_NewRandomVehicle.Location = new System.Drawing.Point(97, 60);
+            this.btn_NewRandomVehicle.Location = new System.Drawing.Point(216, 60);
             this.btn_NewRandomVehicle.Name = "btn_NewRandomVehicle";
             this.btn_NewRandomVehicle.Size = new System.Drawing.Size(203, 39);
             this.btn_NewRandomVehicle.TabIndex = 1;
@@ -56,7 +56,7 @@
             // btn_Exit
             // 
             this.btn_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btn_Exit.Location = new System.Drawing.Point(306, 60);
+            this.btn_Exit.Location = new System.Drawing.Point(425, 60);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(116, 39);
             this.btn_Exit.TabIndex = 2;
@@ -68,7 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(434, 111);
+            this.ClientSize = new System.Drawing.Size(553, 111);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_NewRandomVehicle);
             this.Controls.Add(this.lbl_rndVehicle);

@@ -19,21 +19,19 @@ namespace GTAO_Random_Vehicle_Selector
         }
 
         public Vehicles Vehicles { get; set; }
-        public Vehicle Vehicle { get; set; }
         public Randomizer Randomizer { get; set; }
 
         private void frm_Main_Load(object sender, EventArgs e)
         {
             Vehicles = ObjectXmlSerializer<Vehicles>.Load("vehiclelist.xml");
 
-            RndVehicle();
-            lbl_rndVehicle_SetText(GetVehicleText());
+            lbl_rndVehicle_SetText(RndVehicle());
         }
 
         private void btn_NewRandomVehicle_Click(object sender, EventArgs e)
         {
             RndVehicle();
-            lbl_rndVehicle_SetText(GetVehicleText());
+            lbl_rndVehicle_SetText(RndVehicle());
         }
 
         private void lbl_rndVehicle_SetText(string text)
@@ -41,15 +39,10 @@ namespace GTAO_Random_Vehicle_Selector
             lbl_rndVehicle.Text = text;
         }
 
-        private void RndVehicle()
+        private string RndVehicle()
         {
             Randomizer = new Randomizer(Vehicles);
-            Vehicle = Randomizer.RandomVehicle();
-        }
-
-        private string GetVehicleText()
-        {
-            return Vehicle.Make + " " + Vehicle.Model + " (" + Vehicle.Class + ")";
+            return Randomizer.RandomVehicle();
         }
 
         private void btn_Exit_Click(object sender, EventArgs e)
