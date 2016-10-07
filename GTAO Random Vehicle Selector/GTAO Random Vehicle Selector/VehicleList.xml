@@ -58,17 +58,7 @@
       <model>Schafter V12 (Armored)</model>
       <class>Sedans</class>
     </vehicle>
-    <vehicle>
-      <make>Nagasaki</make>
-      <model>BF400</model>
-      <class>Motorcycles</class>
-    </vehicle>
-    <vehicle>
-      <make>Pegassi</make>
-      <model>Bati 801</model>
-      <class>Motorcycles</class>
-    </vehicle>
-    <vehicle>
+        <vehicle>
       <make>Übermacht</make>
       <model>Zion</model>
       <class>Coupes</class>
@@ -168,16 +158,6 @@
       <class>Off-Road</class>
     </vehicle>
     <vehicle>
-      <make>Shitzu</make>
-      <model>Hakuchou</model>
-      <class>Motorcycles</class>
-    </vehicle>
-    <vehicle>
-      <make>Dinka</make>
-      <model>Akuma</model>
-      <class>Motorcycles</class>
-    </vehicle>
-    <vehicle>
       <make>Benefactor</make>
       <model>Panto</model>
       <class>Compacts</class>
@@ -239,5 +219,32 @@
       <model>Dubsta</model>
       <class>SUVs</class>
     </vehicle>
+  </garage>
+  <garage name="Hawick Clubhouse">
+	<vehicle>
+      <make>Nagasaki</make>
+      <model>BF400</model>
+      <class>Motorcycles</class>
+    </vehicle>
+	<vehicle>
+      <make>Shitzu</make>
+      <model>Hakuchou</model>
+      <class>Motorcycles</class>
+    </vehicle>
+    <vehicle>
+      <make>Dinka</make>
+      <model>Akuma</model>
+      <class>Motorcycles</class>
+    </vehicle>
+	<vehicle>
+      <make>Pegassi</make>
+      <model>Bati 801</model>
+      <class>Motorcycles</class>
+    </vehicle>
+	<vehicle>
+		<make>Shitzu</make>
+		<model>Hakuchou Drag</model>
+		<class>Motorcycles</class>
+	</vehicle>
   </garage>
 </vehicles>
